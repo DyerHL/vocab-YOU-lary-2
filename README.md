@@ -4,6 +4,8 @@
 
 A Web app designed to create vocab cards to help studying Programing languages and tenchnologies.
 
+![image](https://user-images.githubusercontent.com/86806913/132958721-8b9d0a07-8b51-48e6-81b1-7e3adf29d639.png)
+
 ## Flow-Chart
 ![image](https://user-images.githubusercontent.com/86806913/132958506-b7200a38-ff07-40f7-8636-52c837e38fde.png)
 
