@@ -3,8 +3,64 @@
 
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: rgb(56, 55, 53);
+  color: rgb(117, 117, 117);
   text-align: center;
   margin-top: 100px;
+}
+
+.navbar-dark .navbar-brand {
+  color: rgb(219, 219, 219);
+  font-weight: 900;
+  font-size: 2em;
+
+  ul li:last-of-type {
+    text-align: right;
+  }
+}
+.grey-box {
+  float: left;
+  margin: 2px;
+  width: 200px;
+  height: 200px;
+}
+
+.logout {
+  margin: 0 20px;
+  font-size: 25px;
+  color: white;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 100px;
+  align-content: center;
+
+  #form-container {
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    color: white;
+  }
+
+#view {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+
+  .details {
+    min-width: 50%;
+    max-width: 60%;
+  }
+
+  .description {
+    white-space: pre-wrap;
+  }
+}
+}
+.card {
+  margin: 3px;
 }
