@@ -7,10 +7,10 @@ A Web app designed to create vocab cards to help studying Programing languages a
 ## Flow-Chart
 ![image](https://user-images.githubusercontent.com/86806913/132958506-b7200a38-ff07-40f7-8636-52c837e38fde.png)
 
-## Wirefram
+## Wireframe
 [Wireframe](https://www.figma.com/file/IW4jF3GnzCFLYbEXlgFNIZ/MVP?node-id=0%3A1)
 
-##Code Snippet
+## Code Snippet
 
 ![image](https://user-images.githubusercontent.com/86806913/132958593-f9eed7e4-920e-43d0-a5bb-9d2867bbec4a.png)
 
