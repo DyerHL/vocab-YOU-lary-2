@@ -50,6 +50,7 @@ body {
   margin: auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   .details {
     min-width: 50%;
@@ -63,4 +64,8 @@ body {
 }
 .card {
   margin: 3px;
+  
+}
+#filterContainer {
+  margin: 10px;
 }

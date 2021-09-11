@@ -13,8 +13,14 @@ const addCardForm = (userId, obj = {}) => {
             <input type="url" class="form-control" id="description" placeholder="Description" value="${obj.description || ''}"required>
           </div>
           <div class="form-group">
-            <label for="email">Language/Tech</label>
-            <input type="text" class="form-control" id="language_tech" placeholder="Language/Tech" value="${obj.language_tech || ''}"required>
+            <label for="language_tech">Language/Tech</label>
+            <select class="form-select" id="language_tech" aria-label="Language" value="${obj.language_tech || ''}">
+            <option>Select</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Tech">Tech</option>
+            </select>
           </div>
           <button type="submit" id="${obj.firebaseKey ? `update-card--${obj.firebaseKey}` : 'submit-card'}" class="btn btn-primary">Submit Card</button>
         </form>`;
