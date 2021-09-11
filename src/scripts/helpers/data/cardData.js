@@ -46,7 +46,7 @@ const updateCard = (cardObj) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// FILTER CARD
+// FILTER CARDS
 const filterCards = (langtech, uid) => new Promise((resolve, reject) => {
   getCards(uid).then((userCards) => {
     const filtered = userCards.filter((card) => (card.language_tech === langtech));
@@ -55,11 +55,19 @@ const filterCards = (langtech, uid) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+// SEARCH CARDS
+const searchCards = async (searchValue, uid) => {
+  const cardsArray = await getCards(uid);
+  const searchReturn = cardsArray.filter((card) => (card.title.toLowerCase().includes(searchValue)));
+  return searchReturn;
+};
+
 export {
   getCards,
   getSingleCard,
   createCard,
   deleteCard,
   updateCard,
-  filterCards
+  filterCards,
+  searchCards
 };

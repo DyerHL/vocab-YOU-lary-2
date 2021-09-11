@@ -13,22 +13,13 @@ body {
   color: rgb(219, 219, 219);
   font-weight: 900;
   font-size: 2em;
-
-  ul li:last-of-type {
-    text-align: right;
-  }
 }
-.grey-box {
-  float: left;
-  margin: 2px;
-  width: 200px;
-  height: 200px;
-}
-
 .logout {
   margin: 0 20px;
-  font-size: 25px;
+  margin-left: left;
+  font-size: 8px;
   color: white;
+
 }
 
 #main-container {
@@ -64,8 +55,12 @@ body {
 }
 .card {
   margin: 3px;
-  
 }
+
 #filterContainer {
   margin: 10px;
+}
+
+#search {
+  margin-right: 400px;
 }
