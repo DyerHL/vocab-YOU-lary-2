@@ -4,7 +4,8 @@ import {
   deleteCard,
   createCard,
   getSingleCard,
-  updateCard
+  updateCard,
+  filterCards
 } from '../helpers/data/cardData';
 
 const domEvents = (userId) => {
@@ -51,6 +52,12 @@ const domEvents = (userId) => {
         uid: userId
       };
       updateCard(cardObj).then(showCards);
+    }
+
+    // CLICK EVENT FOR FILTERING
+    if (e.target.id.includes('filter')) {
+      const [, langTech] = e.target.id.split('--');
+      filterCards(langTech, userId).then(showCards);
     }
   });
 };

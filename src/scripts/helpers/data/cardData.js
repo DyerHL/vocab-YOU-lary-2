@@ -46,10 +46,20 @@ const updateCard = (cardObj) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
+// FILTER CARD
+const filterCards = (langtech, uid) => new Promise((resolve, reject) => {
+  getCards(uid).then((userCards) => {
+    const filtered = userCards.filter((card) => (card.language_tech === langtech));
+    resolve(filtered);
+  })
+    .catch(reject);
+});
+
 export {
   getCards,
   getSingleCard,
   createCard,
   deleteCard,
   updateCard,
+  filterCards
 };
