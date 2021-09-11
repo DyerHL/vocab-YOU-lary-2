@@ -23,9 +23,8 @@ const navBar = () => {
               <li class="nav-item">
                 <a class="nav-link" href="#" id="add-entry">Create Entry</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="logout-button">Logout</a>
-              </li>
+              <input id="search" placeholder="Search Entries"/>
+              <div id="logout-button"></div>
             </ul>
           </div>
         </nav>
