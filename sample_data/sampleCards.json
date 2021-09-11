@@ -1,0 +1,42 @@
+{
+    "-MjBxGU5Yl66s0wmOXmo" : {
+      "description" : "HTML is the standard markup language for Web pages.",
+      "firebaseKey" : "-MjBxGU5Yl66s0wmOXmo",
+      "language_tech" : "HTML",
+      "time" : "2:19 PM",
+      "title" : "What is HTML?",
+      "uid": ""
+    },
+    "-MjGieMPaAYdMu-AiBb4" : {
+      "description" : "A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.",
+      "firebaseKey" : "-MjGieMPaAYdMu-AiBb4",
+      "language_tech" : "JavaScript",
+      "time" : "8:14 PM",
+      "title" : "Promies",
+      "uid": ""
+    },
+    "-MjGj234bB_ta6j_wugC" : {
+      "description" : "Postman is an application used for API testing. It is an HTTP client that tests HTTP requests, utilizing a graphical user interface, through which we obtain different types of responses that need to be subsequently validated.",
+      "firebaseKey" : "-MjGj234bB_ta6j_wugC",
+      "language_tech" : "Postman",
+      "time" : "11:23 PM",
+      "title" : "What is Postman?",
+      "uid": ""
+    },
+    "-MjGjSyS2JJCyGxLvM5w" : {
+      "description" : "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+      "firebaseKey" : "-MjGjSyS2JJCyGxLvM5w",
+      "language_tech" : "React",
+      "time" : "2:12 PM",
+      "title" : "What is React?",
+      "uid": ""
+    },
+    "-MjGjeyJf5_V5f7ecbKr" : {
+      "description" : "Firebase is a platform developed by Google for creating mobile and web applications.",
+      "firebaseKey" : "-MjGjeyJf5_V5f7ecbKr",
+      "language_tech" : "Firebase",
+      "time" : "1:00 AM",
+      "title" : "What is Firebase?",
+      "uid": ""
+    }
+  }
